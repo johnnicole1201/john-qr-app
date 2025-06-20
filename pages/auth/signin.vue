@@ -10,6 +10,7 @@
                     <v-text-field
                     
                     outlined
+                    prepend-inner-icon="mdi-email"
                     
                     label="Email"
                     type=" Email"
@@ -17,6 +18,7 @@
                 </v-text-field>
                 <v-text-field
                 outlined
+                prepend-inner-icon="mdi-lock"
                 label="Password"
                 type="Password"
                 >
