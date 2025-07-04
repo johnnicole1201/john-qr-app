@@ -10,6 +10,7 @@
                     <v-text-field
                     
                     outlined
+                    rounded
                     prepend-inner-icon="mdi-email"
                     
                     label="Email"
@@ -18,15 +19,25 @@
                 </v-text-field>
                 <v-text-field
                 outlined
+                rounded
                 prepend-inner-icon="mdi-lock"
                 label="Password"
                 type="Password"
                 >
 
                 </v-text-field>
-                <v-btn color="primary" type="submit" class="mt-4" block>LOGIN</v-btn>
+                <v-btn rounded color="primary" type="submit" class="mt-4" block>LOGIN</v-btn>
+                <div class= "hr-sect my-5">OR</div>
+                <v-btn color="error" class="text-capitalize" rounded block>
+                <v-icon left>mdi-google </v-icon>Sign in with Google  </v-btn>
+                </v-form>
+            </v-card-text >
+            <v-card-text>
+                <v-form>
+                   
                 </v-form>
             </v-card-text>
+           
         </v-card>
         </v-container>
     </div>
